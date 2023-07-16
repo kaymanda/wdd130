@@ -68,7 +68,7 @@ body {
 h4 {
     color:#985f6f;
     font-family: Courgette, Caveat, sans-serif;
-    font-size: 3em;
+    font-size: 2.5em;
     text-shadow: 2px 2px 5px black;
 }
 .msg p {
@@ -86,7 +86,6 @@ footer {
     background-color: #e0b3ab;
     color:#985f6f;
     padding: 25px 50px;
-    margin-top: 200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -108,7 +107,7 @@ footer p a:hover {
     text-decoration: underline;
 }
 footer .icon {
-    padding-top: 15px;
+    width: 100px;
 }
 /*Baked Goods Page*/
 .msg-goods p {
@@ -120,7 +119,12 @@ footer .icon {
 }
 
 /*Benefits Page*/
-
+.msg-benefits {
+    font-family: Tinos, Caveat, sans-serif;
+    font-size: 1.5em;
+    padding-bottom: 15px;
+    color:#e0b3ab; 
+}
 
 
 /*contactus.html*/
